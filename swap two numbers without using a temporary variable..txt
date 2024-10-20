@@ -1,5 +1,8 @@
 //swap two numbers without using a temporary variable.
-
+ num1 = num1 + num2;
+    num2 = num1 - num2;
+    num1 = num1 - num2;
+    
 
 #include <stdio.h>
 
