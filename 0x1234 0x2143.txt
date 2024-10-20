@@ -1,3 +1,17 @@
+// A	    B	Output (A AND B)
+// 0	    0	0
+// 0	    1	0
+// 1	    0	0
+// 1	    1	1
+
+
+// A	B	Output (A OR B)
+// 0	0	0
+// 0	1	1
+// 1	0	1
+// 1	1	1
+
+
 #include <stdio.h>
 #include <stdint.h>
 
