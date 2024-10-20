@@ -1,5 +1,6 @@
 //Count the Total Number of 7 comming between 1 to 100.
-
+int digit = temp % 10;
+if (digit == 7) while loop
 
 #include <stdio.h>
 
