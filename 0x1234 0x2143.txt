@@ -11,6 +11,17 @@
 // 1	0	1
 // 1	1	1
 
+ // Swap the nibbles of the high byte
+    uint8_t new_high = ((high_byte & 0xF0) >> 4) | ((high_byte & 0x0F) << 4);
+    
+    // Swap the nibbles of the low byte
+    uint8_t new_low = ((low_byte & 0xF0) >> 4) | ((low_byte & 0x0F) << 4);
+    
+    // Combine the new bytes into a 16-bit value
+    return (new_high << 8) | new_low;
+
+
+
 
 #include <stdio.h>
 #include <stdint.h>
