@@ -1,7 +1,8 @@
 
 //Write a program to concatenat e two strings without using strcat() function.
 
-
+// find both length
+//add char length1 + length[1] => length2 value looping
 #include <stdio.h>
 #include <string.h>
 
