@@ -3,6 +3,10 @@
     num2 = num1 - num2;
     num1 = num1 - num2;
     
+or
+a ^= b;
+b ^= a;
+a ^= b;
 
 #include <stdio.h>
 
